@@ -203,3 +203,7 @@ module "s3-bucket" {
   source  = "cloudposse/s3-bucket/aws"
   version = "3.0.0"
 }
+module "s3-bucket" {
+  source  = "cloudposse/s3-bucket/aws"
+  version = "3.0.0"
+}
